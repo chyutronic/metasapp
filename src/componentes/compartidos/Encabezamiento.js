@@ -1,7 +1,7 @@
 import estilos from "./Encabezado.module.css";
 import { ReactComponent as LogoSVG } from "../../img/logo.svg";
 import { ReactComponent as PerfilSVG } from "../../img/perfil.svg";
-import Vinculo  from "./Vinculo";
+import Vinculo from "./Vinculo";
 
 function Encabezamiento() {
   return (
@@ -13,7 +13,7 @@ function Encabezamiento() {
         </a>
       </div>
       <nav>
-        <Vinculo href="/perfil" Icono={PerfilSVG}></Vinculo>
+        <Vinculo to="/perfil" Icono={PerfilSVG}></Vinculo>
       </nav>
     </header>
   );
