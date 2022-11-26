@@ -39,6 +39,7 @@ const estadoInicial = {
 };
 
 function reductor(estado, accion) {
+  // eslint-disable-next-line default-case
   switch (accion.tipo) {
     case "colocar": {
       const metas = accion.metas;
